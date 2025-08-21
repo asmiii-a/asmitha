@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+       .b{
+        display: flex;
+        font-weight:900;
+        color: rgb(228, 232, 234);
+        background-color:rgb(26, 80, 88);
+        height:50px;
+        width:100%;
+        padding:2px;
+        gap:100px;
+        align-items: center;
+        
+        flex-wrap: wrap;
+        font-size:20px;
+        margin-right: 150px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 20px;
+       }
+       a:link{
+        color: rgb(247, 243, 243);
+        text-decoration: none;
+        margin-left: 30px;
+        text-align: center;
+        gap: 20px;
+
+    
+       }
+       .form{
+        margin-top: 60px;
+        text-align: center;
+        background-color: rgb(26, 80, 88) ;
+        width: fit-content;
+        margin-left: 500px;
+        padding: 50px;
+        font-size: larger;
+        color: aliceblue;
+        border-radius: 40px;
+        
+
+       }
+       .a{
+        text-align: center;
+        font-size:50px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: 10px;
+        color: rgb(64, 140, 138);
+        font-weight:900;
+        
+       }
+       a:visited{
+
+        color: white;
+       }
+    .footer{
+        position:sticky;
+        top:0px;
+        margin-top: 340px;
+    }
+    body{
+        background-color: #85c8d7;
+    }
+    .About{
+        text-align: center;
+        margin-top: 60px;
+        color: aliceblue;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="a">
+        <ul style="list-style-type:none;">
+            <li>  ROHINI COLLEGE OF </li>
+            <li>ENGINEERING AND TECHNOLOGY</li>
+            
+        </ul>
+    </div>
+    
+    
+        <ul class="b" style="list-style-type: none;">
+            
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Details</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    
+   
+    <div class="form">
+        <h1>Registration Form</h1><br>
+        <form>
+            <br>
+            <label for="name">Full Name</label>
+            <input type="text"id="name" name="name"required placeholder="Enter your Full name..."><br><br>
+            <label for="email">email Address</label>
+            <input type="email"id="email"name="email"required placeholder="ex:example@gmail.com"><br><br>
+            <label for="phone">Phone Number</label>
+            <input type="number"minlength="10"maxlength="10"required placeholder="phone"><br><br>
+            
+        </form>
+    </div>
+    <div class="About">
+        <h2>VISION </h2><br>
+        <p>
+            "To be a leading institution recognized for academic excellence, innovation, and community engagement."<br>
+"To empower students to become leaders and innovators in a rapidly changing world."<br>
+"To be a catalyst for positive change, fostering a more just and sustainable society." 
+        </p><br><br>
+        <h2>MISSION</h2><br>
+        <p>
+            "To provide a rigorous and supportive learning environment that cultivates intellectual curiosity, critical thinking, and ethical leadership." <br>
+"To advance knowledge through impactful research and creative activity, and to prepare students to contribute meaningfully to their chosen fields and communities." <br>
+"To foster a diverse and inclusive community where all members can thrive, learn, and grow." 
+        </p>
+
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2020 Rohini College of Engineering and Technology</p>
+    </div>
+
+    
+</body>
+</html>
